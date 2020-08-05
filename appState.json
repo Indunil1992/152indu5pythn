@@ -1,0 +1,116 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "3dfe1269-f2b5-4e3f-93a2-991056918512": {
+        "id": "3dfe1269-f2b5-4e3f-93a2-991056918512",
+        "parent": null,
+        "name": "152indu5pythn.py",
+        "type": "PYTHON_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "152indu5pythn.py",
+        "cursor": {
+          "lineNumber": 1,
+          "column": 1
+        },
+        "config": {
+          "runtime": "python2.7",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": [],
+          "name": "152indu5pythn"
+        },
+        "triggers": [
+          {
+            "resourceName": "apigusEast1newindu153pythnindunilqatstany",
+            "config": {}
+          }
+        ]
+      }
+    },
+    "openFiles": [
+      "3dfe1269-f2b5-4e3f-93a2-991056918512"
+    ],
+    "currentFileId": "3dfe1269-f2b5-4e3f-93a2-991056918512",
+    "resources": {
+      "apigusEast1newindu153pythnindunilqatstany": {
+        "name": "apigusEast1newindu153pythnindunilqatstany",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "us-east-1",
+          "apiType": 1,
+          "apiMode": 0,
+          "apiName": "newindu153pythn",
+          "endpointType": "EDGE",
+          "resourceMode": 0,
+          "resourceName": "indunil/qa/tst",
+          "resourcePath": "/indunil/qa/tst",
+          "restMethod": "ANY",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 0,
+          "stageName": "test123",
+          "mode": 0
+        }
+      },
+      "s3newwwinduuupy153": {
+        "name": "s3newwwinduuupy153",
+        "type": "S3",
+        "config": {
+          "mode": 0,
+          "bucket": {
+            "region": "us-east-1",
+            "name": "newwwinduuupy153"
+          }
+        }
+      }
+    },
+    "customTemplate": {
+      "syntax": "JSON",
+      "overrideDefault": false,
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {
+        "boto3": {
+          "name": "boto3",
+          "language": "python",
+          "version": "1.12.27",
+          "dev": true,
+          "notRemovable": false
+        }
+      }
+    }
+  },
+  "PROJECT_META": {
+    "sigmaVersion": "1.4.1.4",
+    "projectName": "152indu5pythn",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "language": "python",
+    "platformRegions": {},
+    "lastSave": 1596615838222
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "152indu5pythn",
+      "url": "https://github.com/Indunil1992/152indu5pythn"
+    }
+  }
+}
